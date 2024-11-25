@@ -29,3 +29,6 @@ teacher = Teacher("张老师")
 student = Student("张自力同学", "洛阳嵩县")
 teacher.tiWen(student)
 
+from object.Point import Point
+p1 = Point(1, 2)
+print(p1)
