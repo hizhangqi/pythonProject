@@ -35,7 +35,7 @@ def pay(from_account, to_account, money):
 
         sql1 = "update bank_account set account_balance=account_balance-%s where user_name=%s"
         db_cursor.execute(sql1, (money, from_account))
-        a = 10 / 0
+
         sql2 = "update bank_account set account_balance=account_balance+%s where user_name=%s"
         db_cursor.execute(sql2, (money, to_account))
 
