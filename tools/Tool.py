@@ -23,3 +23,5 @@ class Tool:
 # 工具类的使用
 print(Tool.get_sum(99, 100, 98, chinese=99, math=89, english=100, mysql=90, python=90))
 print(Tool.is_prime_number(99))
+
+
